@@ -12,11 +12,10 @@
       "path": "bin"
     },
     {
-      "path": "docs",
-      "folder_exclude_patterns":
-      [
-        "_site"
-      ]
+      "path": "docs"
+    },
+    {
+      "path": "pug"
     }
   ]
 }

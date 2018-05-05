@@ -1,0 +1,20 @@
+extends ../../layout/layout
+
+block head-title
+  title Suggest - AllCa
+
+block content
+
+  .page-title
+    h1 Suggest
+
+  .section
+    .sub-section.text
+      | facebook:&nbsp;
+      a(href='https://www.facebook.com/allca.news', target='_blank') https://www.facebook.com/allca.news
+      br
+
+      | email:&nbsp;
+      -var email = 'support+allca@raysoda.com'
+      a(href='mailto:' + email)= email
+      br
