@@ -1,1 +1,1 @@
-pug pug/content --out docs
+pug pug/content --watch --out docs
